@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/CDN_FreelancerDirectory.props" />
+</Project>
