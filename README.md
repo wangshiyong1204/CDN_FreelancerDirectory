@@ -46,7 +46,7 @@ To get a local copy up and running follow these simple steps.
    dotnet ef database update
 
 
-### Usage
+## Usage
 Run the application:  
 dotnet run  
 Access the Swagger UI to test the API endpoints by navigating to:  
@@ -54,7 +54,7 @@ http://localhost:5000/swagger
 change 5000 to the correct port number  
 or use other tools such as Postman for testing
 
-### API Endpoints
+## API Endpoints
 GET /api/users: Retrieves all users.  
 GET /api/users/{id}: Retrieves a user by ID.  
 POST /api/users: Adds a new user.  
