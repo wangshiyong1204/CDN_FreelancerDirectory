@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple steps.
 2. Restore the .NET packages:  
    dotnet restore
    
-3. Modified mySQL version to your own version in Program.cs file  
+3. Modified MySQL version to your own version in Program.cs file  
    MySqlServerVersion(new Version(8, 0, 34))));
 
 5. Update the appsettings.json file with your MySQL connection details:  
@@ -40,7 +40,7 @@ To get a local copy up and running follow these simple steps.
   "DefaultConnection": "Server=localhost;Database=CDN_FreelancerDirectory;User=root;Password=your_password;"
 }
 
-6. Applying Migrations
+6. Applying Migrations,
    Generate the database schema based on the current model:  
    dotnet ef migrations add InitialCreate  
    dotnet ef database update
