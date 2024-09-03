@@ -60,3 +60,20 @@ GET /api/users/{id}: Retrieves a user by ID.
 POST /api/users: Adds a new user.  
 PUT /api/users/{id}: Updates an existing user.  
 DELETE /api/users/{id}: Deletes a user.  
+
+## Sample Data for API testing
+  {
+    "Username": "Shiyong",
+    "Email": "shiyong@etiqa.com",
+    "PhoneNumber": "12345678",
+    "Skillsets": "coding",
+    "Hobby": "Hiking"
+  }  
+    
+  {
+    "Username": "Sweefoo",
+    "Email": "Sweefoo@etiqa.com",
+    "PhoneNumber": "87654321",
+    "Skillsets": "Management",
+    "Hobby": "Gaming"
+  }
